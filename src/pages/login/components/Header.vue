@@ -27,11 +27,11 @@ const toggleSettingPanel = () => {
 };
 
 const navToGitHub = () => {
-  window.open('https://github.com/tencent/tdesign-vue-next-starter');
+  window.open('https://github.com/Lenceas/luna.blog');
 };
 
 const navToHelper = () => {
-  window.open('http://tdesign.tencent.com/starter/docs/get-started');
+  window.open('https://github.com/Lenceas/luna.blog');
 };
 </script>
 

@@ -152,7 +152,7 @@ function createAxios(opt?: Partial<CreateAxiosOptions>) {
       <CreateAxiosOptions>{
         // https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication#authentication_schemes
         // 例如: authenticationScheme: 'Bearer'
-        authenticationScheme: '',
+        authenticationScheme: 'Bearer',
         // 超时
         timeout: 10 * 1000,
         // 携带Cookie
@@ -170,7 +170,7 @@ function createAxios(opt?: Partial<CreateAxiosOptions>) {
           // 接口前缀
           // 例如: https://www.baidu.com/api
           // urlPrefix: '/api'
-          urlPrefix: '/api',
+          urlPrefix: '/api/v1',
           // 是否返回原生响应头 比如：需要获取响应头时使用该属性
           isReturnNativeResponse: false,
           // 需要对返回数据进行处理

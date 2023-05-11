@@ -1,8 +1,8 @@
 export default {
   showFooter: true,
   isSidebarCompact: false,
-  showBreadcrumb: false,
-  mode: 'light',
+  showBreadcrumb: true,
+  mode: 'auto',
   layout: 'side',
   splitMenu: false,
   isFooterAside: false,
@@ -11,5 +11,5 @@ export default {
   isUseTabsRouter: false,
   showHeader: true,
   backgroundTheme: 'blueGrey',
-  brandTheme: 'default',
+  brandTheme: 'dynamic',
 };
